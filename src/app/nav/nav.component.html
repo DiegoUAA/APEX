@@ -1,0 +1,32 @@
+<mat-toolbar class="nav-toolbar">
+  <div class="nav-container">
+    <a mat-button routerLink="/" routerLinkActive="active-link">Inicio</a>
+    <a mat-button routerLink="/vehicles" routerLinkActive="active-link"
+      >Vehículos</a
+    >
+    <a mat-button routerLink="/services" routerLinkActive="active-link"
+      >Servicios</a
+    >
+    <a mat-button routerLink="/contact" routerLinkActive="active-link"
+      >Contacto</a
+    >
+
+    @if (authService.isLoggedIn()) {
+    <a mat-button routerLink="/admin-panel" routerLinkActive="active-link"
+      >Admin Panel</a
+    >
+    }
+
+    <span class="spacer"></span>
+    @if (authService.isLoggedIn()) {
+    <span class="user-name">Hola, {{ authService.user }}</span>
+    <button mat-icon-button (click)="logout()" aria-label="Logout">
+      <mat-icon>logout</mat-icon>
+    </button>
+    } @else {
+    <button mat-icon-button routerLink="/login" aria-label="Login">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    }
+  </div>
+</mat-toolbar>

@@ -1,0 +1,25 @@
+<mat-toolbar class="creative-header">
+  <!-- Efecto de partículas (opcional) -->
+  <div class="particles">
+    <div
+      *ngFor="let particle of particles"
+      class="particle"
+      [style.left]="particle.x + '%'"
+      [style.top]="particle.y + '%'"
+      [style.width]="particle.size + 'px'"
+      [style.height]="particle.size + 'px'"
+      [style.animation-delay]="particle.delay + 's'"
+    ></div>
+  </div>
+
+  <div class="header-container">
+    <div class="brand-logo">
+      <mat-icon class="logo-icon">sports_motorsports</mat-icon>
+      <span class="brand-name">APEX</span>
+      <span class="brand-subtitle">AUTOMOTIVE</span>
+    </div>
+    <div class="slogan-container">
+      <span class="slogan">Más que autos, experiencias al límite</span>
+    </div>
+  </div>
+</mat-toolbar>

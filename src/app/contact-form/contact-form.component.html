@@ -1,0 +1,71 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+    <h2>Envíanos un mensaje</h2>
+
+    <mat-form-field>
+        <mat-label>Nombre completo</mat-label>
+        <input matInput formControlName="name" required />
+        @if (contactForm.get('name')?.hasError('required')) {
+        <mat-error>Este campo es obligatorio</mat-error>
+        }
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Correo electrónico</mat-label>
+        <input matInput formControlName="email" type="email" required />
+        @if (contactForm.get('email')?.hasError('required')) {
+        <mat-error>Este campo es obligatorio</mat-error>
+        }
+        @if (contactForm.get('email')?.hasError('email')) {
+        <mat-error>Ingresa un correo válido</mat-error>
+        }
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Asunto</mat-label>
+        <mat-select formControlName="subject" required>
+            @for (subject of subjects; track subject) {
+            <mat-option [value]="subject">{{ subject }}</mat-option>
+            }
+        </mat-select>
+        @if (contactForm.get('subject')?.hasError('required')) {
+        <mat-error>Selecciona un asunto</mat-error>
+        }
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Fecha de contacto deseada</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date" required />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        @if (contactForm.get('date')?.hasError('required')) {
+        <mat-error>Selecciona una fecha</mat-error>
+        }
+        @if (contactForm.get('date')?.hasError('invalidDate')) {
+        <mat-error>La fecha no puede ser anterior a hoy</mat-error>
+        }
+    </mat-form-field>
+
+    <div class="form-group">
+        <label>¿Cómo prefieres que te contactemos?</label>
+        <mat-radio-group formControlName="contactMethod" required>
+            <mat-radio-button value="phone">Teléfono</mat-radio-button>
+            <mat-radio-button value="email">Correo electrónico</mat-radio-button>
+            <mat-radio-button value="whatsapp">WhatsApp</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <mat-form-field>
+        <mat-label>Mensaje</mat-label>
+        <textarea matInput formControlName="message" required></textarea>
+        @if (contactForm.get('message')?.hasError('required')) {
+        <mat-error>Escribe tu mensaje</mat-error>
+        }
+        @if (contactForm.get('message')?.hasError('minlength')) {
+        <mat-error>El mensaje debe tener al menos 20 caracteres</mat-error>
+        }
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="!contactForm.valid">
+        Enviar mensaje
+    </button>
+</form>

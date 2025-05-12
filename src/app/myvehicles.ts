@@ -697,7 +697,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V8 4.0L',
     seats: 2,
-    image: 'assets/img/mercedes-amggt.webp',
+    image: '/assets/img/mercedes-amggt.webp',
     details: `
       Un deportivo alemán que combina ingeniería de precisión con un diseño agresivo.
     • Motor V8 4.0L Biturbo con 503 hp y una aceleración de 0 a 100 km/h en 3.8 segundos.

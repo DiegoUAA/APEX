@@ -26,7 +26,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 6.2L Supercharged',
     seats: 4,
-    image: '/img/dodge-charger.png',
+    image: 'assets/img/dodge-charger.png',
     details: `
       Edición especial "Last Call" con producción limitada.
       • Motor V8 6.2L Supercharged con 717 hp y 656 lb-pie de torque.
@@ -45,7 +45,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V10 5.2L',
     seats: 2,
-    image: '/img/audi-r8.png',
+    image: 'assets/img/audi-r8.png',
     details: `
       Última edición del icónico superdeportivo R8.
       • Motor V10 5.2L atmosférico con 602 hp y tracción quattro.
@@ -63,7 +63,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V6 4.0L',
     seats: 2,
-    image: '/img/gt4-rs.png',
+    image: 'assets/img/gt4-rs.png',
     details: `
       La versión más radical del Cayman jamás creada.
       • Motor atmosférico 4.0L derivado del 911 GT3 con 500 hp.
@@ -81,7 +81,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 4.4L',
     seats: 5,
-    image: '/img/bmw-x5.png',
+    image: 'assets/img/bmw-x5.png',
     details: `
       El SUV de alto desempeño que domina cualquier terreno.
       • Motor V8 4.4L TwinPower Turbo con 600 hp.
@@ -99,7 +99,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 5.2L',
     seats: 5,
-    image: '/img/ford-raptor.png',
+    image: 'assets/img/ford-raptor.png',
     details: `
       La pickup más salvaje jamás creada por Ford.
       • Motor V8 5.2L Supercharged de 700 hp.
@@ -117,7 +117,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V6 3.5L',
     seats: 5,
-    image: '/img/toyota-tacoma.png',
+    image: 'assets/img/toyota-tacoma.png',
     details: `
       La pickup confiable y lista para cualquier aventura.
       • Motor V6 3.5L con transmisión automática de 6 velocidades.
@@ -134,7 +134,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V8 5.0L',
     seats: 4,
-    image: '/img/ford-mustang.png',
+    image: 'assets/img/ford-mustang.png',
     details: `
       La nueva era del Mustang con el alma de un muscle car.
       • Motor V8 5.0L Coyote mejorado de 500 hp.
@@ -152,7 +152,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V8 5.7L',
     seats: 5,
-    image: '/img/dodge-ram.png',
+    image: 'assets/img/dodge-ram.png',
     details: `
       Lujo americano y capacidad sin igual en una pickup.
       • Motor V8 HEMI 5.7L con eTorque Mild Hybrid.
@@ -169,7 +169,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 6.4L',
     seats: 5,
-    image: '/img/jeep-GRSRT.png',
+    image: 'assets/img/jeep-GRSRT.png',
     details: `
       El SUV que combina lujo, potencia y carácter off-road.
       • Motor V8 6.4L HEMI con 475 hp.
@@ -186,7 +186,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 6.2L',
     seats: 6,
-    image: '/img/cadillac-escalade.png',
+    image: 'assets/img/cadillac-escalade.png',
     details: `
       El SUV de lujo más potente y tecnológico del mercado.
       • Motor V8 Supercharged 6.2L de 682 hp.
@@ -203,7 +203,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V8 6.2L',
     seats: 5,
-    image: '/img/chevrolet-cheyenne.png',
+    image: 'assets/img/chevrolet-cheyenne.png',
     details: `
       La pickup más lujosa de Chevrolet, pensada para el trabajo y el confort.
       • Motor V8 6.2L Ecotec3 con 420 hp y 460 lb-pie de torque.
@@ -220,7 +220,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V8 6.2L',
     seats: 4,
-    image: '/img/chevrolet-camaro.png',
+    image: 'assets/img/chevrolet-camaro.png',
     details: `
       El muscle car icónico, mezcla de rendimiento y diseño agresivo.
       • Motor V8 6.2L con 455 hp, aceleración de 0 a 100 km/h en 4 segundos.
@@ -237,7 +237,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 6.2L',
     seats: 6,
-    image: '/img/chevrolet-tahoe.png',
+    image: 'assets/img/chevrolet-tahoe.png',
     details: `
       SUV de lujo con capacidad todoterreno y tecnología avanzada.
       • Motor V8 6.2L Ecotec3 con 420 hp y 460 lb-pie de torque.
@@ -255,7 +255,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V6 3.6L',
     seats: 5,
-    image: '/img/jeep-gladiator.png',
+    image: 'assets/img/jeep-gladiator.png',
     details: `
         Pickup diseñada para el trabajo rudo y las aventuras en terrenos difíciles.
         • Motor V6 3.6L con 285 hp y 260 lb-pie de torque.
@@ -272,7 +272,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V6 4.0L',
     seats: 2,
-    image: '/img/gt3-rs.png',
+    image: 'assets/img/gt3-rs.png',
     details: `
         El Porsche 911 GT3 RS es el rendimiento llevado al extremo.
         • Motor V6 4.0L de aspiración natural con 520 hp y 470 lb-pie de torque.
@@ -289,7 +289,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 6.2L',
     seats: 5,
-    image: '/img/ram-trx.png',
+    image: 'assets/img/ram-trx.png',
     details: `
         La RAM TRX es una pickup todoterreno diseñada para los más exigentes.
         • Motor V8 6.2L con 702 hp y 650 lb-pie de torque.
@@ -306,7 +306,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V6 3.0L',
     seats: 5,
-    image: '/img/ford-broncoR.png',
+    image: 'assets/img/ford-broncoR.png',
     details: `
         El Ford Bronco Raptor es el rey de la aventura todoterreno.
         • Motor V6 3.0L EcoBoost con 418 hp y 440 lb-pie de torque.
@@ -323,7 +323,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 6.2L',
     seats: 5,
-    image: '/img/chevrolet-bison.png',
+    image: 'assets/img/chevrolet-bison.png',
     details: `
         La Chevrolet Cheyenne ZR2 Bison es la pickup más robusta para el trabajo y la aventura.
         • Motor V8 6.2L con 420 hp y 460 lb-pie de torque.
@@ -340,7 +340,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 5.0L',
     seats: 5,
-    image: '/img/shelby-f150.png',
+    image: 'assets/img/shelby-f150.png',
     details: `
         La Ford Shelby F-150 Off-Road es una pickup de alto rendimiento con estilo y potencia.
         • Motor V8 5.0L con 450 hp y 510 lb-pie de torque.
@@ -357,7 +357,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 5.0L',
     seats: 2,
-    image: '/img/shelby-mustang.png',
+    image: 'assets/img/shelby-mustang.png',
     details: `
       El Ford Shelby Mustang GT500 Super Snake 2024 es una máquina de alto rendimiento diseñada para los amantes de la velocidad.
       • Motor V8 5.0L con 800 hp y 630 lb-pie de torque.
@@ -374,7 +374,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 5.0L',
     seats: 3,
-    image: '/img/shelby-supersnake.png',
+    image: 'assets/img/shelby-supersnake.png',
     details: `
      La Ford Shelby F-150 Super Snake 2022 es una pickup de alto rendimiento para quienes buscan potencia y estilo.
       • Motor V8 5.0L con 770 hp y 625 lb-pie de torque.
@@ -391,7 +391,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Performance',
     engine: 'V8 4.0L',
     seats: 2,
-    image: '/img/astonmartin-vantage.png',
+    image: 'assets/img/astonmartin-vantage.png',
     details: `
       El Aston Martin Vantage 2019 es un deportivo de lujo que destaca por su elegancia y rendimiento.
       • Motor V8 4.0L con 503 hp y 505 lb-pie de torque.
@@ -408,7 +408,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'L4 2.7L',
     seats: 5,
-    image: '/img/gmc-canyon.png',
+    image: 'assets/img/gmc-canyon.png',
     details: `
      La GMC Canyon AT4 2023 es una pickup robusta diseñada para el trabajo pesado y la aventura al aire libre.
       • Motor 4C en linea 2.7L con 310 hp y 420 lb-pie de torque.
@@ -425,7 +425,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'L4 2.0L',
     seats: 5,
-    image: '/img/rangerover-velar.png',
+    image: 'assets/img/rangerover-velar.png',
     details: `
       El Range Rover Velar Dynamic 2019 es un SUV de lujo con un diseño elegante y alto rendimiento.
       • Motor 4C linea 2.0L con 247 hp y 269 lb-pie de torque.
@@ -442,7 +442,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'L6 3.0L',
     seats: 4,
-    image: '/img/bmw-m42021.png',
+    image: 'assets/img/bmw-m42021.png',
     details: `
       Deportivo de alto rendimiento con diseño agresivo y tecnología de punta.
       • Motor L6 3.0L TwinPower Turbo con 510 hp y 650 Nm de torque.
@@ -459,7 +459,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V6 2.9L',
     seats: 4,
-    image: '/img/audi-rs5.png',
+    image: 'assets/img/audi-rs5.png',
     details: `
       Elegancia deportiva con corazón biturbo y tracción quattro.
     • Motor V6 2.9L TFSI biturbo con 450 hp y 600 Nm de torque.
@@ -476,7 +476,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'B6 3.0L',
     seats: 4,
-    image: '/img/porsche-911.png',
+    image: 'assets/img/porsche-911.png',
     details: `
       Ícono automotriz con ingeniería precisa y estilo inconfundible.
     • Motor bóxer 6 cilindros 3.0L twin-turbo con 450 hp y 530 Nm de torque.
@@ -493,7 +493,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V6 3.6L',
     seats: 4,
-    image: '/img/dodge-challenger.png',
+    image: 'assets/img/dodge-challenger.png',
     details: `
       Muscle car americano con carácter y presencia única.
     • Motor V6 3.6L Pentastar con 305 hp y 268 lb-pie de torque.
@@ -510,7 +510,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V6 3.5L',
     seats: 6,
-    image: '/img/toyota-sequoia.png',
+    image: 'assets/img/toyota-sequoia.png',
     details: `
       SUV robusta y lujosa diseñada para la aventura y el confort familiar.
     • Motor V6 3.5L híbrido con 437 hp y 583 lb-pie de torque.
@@ -527,7 +527,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V6 3.4L',
     seats: 5,
-    image: '/img/toyota-tundra.png',
+    image: 'assets/img/toyota-tundra.png',
     details: `
        Pickup todoterreno preparada para cualquier desafío con tecnología híbrida.
     • Motor V6 3.4L híbrido con 437 hp y 583 lb-pie de torque.
@@ -544,7 +544,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V8 6.2L',
     seats: 2,
-    image: '/img/chevrolet-corvette.png',
+    image: 'assets/img/chevrolet-corvette.png',
     details: `
       El legendario deportivo americano con alma de pista y espíritu salvaje.
     • Motor V8 6.2L con 460 hp y escape de alto desempeño.
@@ -561,7 +561,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V6 3.5L',
     seats: 5,
-    image: '/img/ford-f150.png',
+    image: 'assets/img/ford-f150.png',
     details: `
       La pickup de lujo de Ford que combina poder y confort sin compromisos.
     • Motor V6 3.5L EcoBoost con 400 hp y gran eficiencia.
@@ -578,7 +578,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V8 6.7L',
     seats: 5,
-    image: '/img/ford-f250.png',
+    image: 'assets/img/ford-f250.png',
     details: `
      La bestia del trabajo pesado con lujo y capacidad sin igual.
     • Motor Power Stroke V8 6.7L Turbo Diesel con 475 hp y 1050 lb-pie de torque.
@@ -595,7 +595,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'V6 3.0L',
     seats: 5,
-    image: '/img/ford-ranger.png',
+    image: 'assets/img/ford-ranger.png',
     details: `
       La pickup mediana más salvaje de Ford, diseñado para adrenalina pura.
     • Motor V6 3.0L Twin-Turbo con 392 hp y suspensión FOX.
@@ -612,7 +612,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Pickup',
     engine: 'L4 2.7L',
     seats: 5,
-    image: '/img/chevrolet-colorado.png',
+    image: 'assets/img/chevrolet-colorado.png',
     details: `
       La pickup mediana de Chevrolet pensada para aventura extrema.
     • Motor Turbo 4 cilindros 2.7L con 310 hp y gran respuesta.
@@ -629,7 +629,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 4.0L',
     seats: 5,
-    image: '/img/bentley-bentayga.png',
+    image: 'assets/img/bentley-bentayga.png',
     details: `
       Una SUV de ultra lujo que combina elegancia británica con rendimiento deportivo.
     • Motor V8 4.0L Twin-Turbo con 542 hp y aceleración brutal.
@@ -646,7 +646,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'W12 6.0L',
     seats: 5,
-    image: '/img/bentley-continental.png',
+    image: 'assets/img/bentley-continental.png',
     details: `
       El gran turismo definitivo que combina potencia, clase y confort extremo.
     • Motor W12 6.0L con 626 hp para un manejo suave pero feroz.
@@ -663,7 +663,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V8 4.4L',
     seats: 5,
-    image: '/img/bmw-x6.png',
+    image: 'assets/img/bmw-x6.png',
     details: `
       Una SUV de alto desempeño que combina deportividad extrema con elegancia alemana.
     • Motor V8 4.4L Twin-Turbo con 617 hp y tracción integral M xDrive.
@@ -680,7 +680,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'SUV',
     engine: 'V6 3.0L',
     seats: 8,
-    image: '/img/landrover-defender.webp',
+    image: 'assets/img/landrover-defender.webp',
     details: `
       Un SUV robusto y elegante, diseñado para dominar cualquier terreno con estilo.
     • Motor V6 3.0L con 400 hp y tecnología mild-hybrid para un rendimiento excepcional.
@@ -697,7 +697,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V8 4.0L',
     seats: 2,
-    image: '/img/mercedes-amggt.webp',
+    image: 'assets/img/mercedes-amggt.webp',
     details: `
       Un deportivo alemán que combina ingeniería de precisión con un diseño agresivo.
     • Motor V8 4.0L Biturbo con 503 hp y una aceleración de 0 a 100 km/h en 3.8 segundos.

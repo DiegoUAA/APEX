@@ -8,7 +8,7 @@ export const VEHICLES: Vehicle[] = [
     type: 'Coupe',
     engine: 'V6 3.0L',
     seats: 4,
-    image: '/img/bmw-m4.png',
+    image: 'assets/img/bmw-m4.png',
     details: `
     Seminuevo con solo 28,500 km recorridos, en impecable estado.  
     • Motor V6 3.0L biturbo con detección de presión variable para una respuesta instantánea.  

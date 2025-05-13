@@ -16,7 +16,7 @@ import { CommonModule } from '@angular/common';
     FeaturesSectionComponent,
   ],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
   featuredVehicles: Vehicle[] = [];
@@ -27,6 +27,6 @@ export class HomeComponent {
     const featuredIds = [2, 3, 6, 16, 17, 21, 23];
     this.featuredVehicles = this.vehicleService
       .getVehicles()
-      .filter(vehicle => featuredIds.includes(vehicle.id));
+      .filter((vehicle) => featuredIds.includes(vehicle.id));
   }
 }

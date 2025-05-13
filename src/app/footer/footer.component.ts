@@ -26,19 +26,19 @@ export class FooterComponent {
       name: 'Angel Garza Flores',
       role: 'Desarrollador Frontend',
       degree: 'Ing. en Sistemas Computacionales',
-      photoUrl: 'img/angel.jpg' // Ruta a la imagen
+      photoUrl: 'img/angel.jpg', // Ruta a la imagen
     },
     {
-      name: 'Juan Osbaldo Escalera Valenciano',
+      name: 'Osbaldo Escalera Valenciano',
       role: 'Diseñador UI/UX',
       degree: 'Ing. en Sistemas Computacionales',
-      photoUrl: 'img/osbaldo.jpg'
+      photoUrl: 'img/osbaldo.jpg',
     },
     {
-      name: 'Diego Alonso Vazques Reyes',
+      name: 'Diego Vazques Reyes',
       role: 'Diseñador UI/UX',
       degree: 'Ing. en Sistemas Computacionales',
-      photoUrl: 'img/diego.jpg'
+      photoUrl: 'img/diego.jpg',
     },
   ];
 }

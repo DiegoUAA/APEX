@@ -29,7 +29,7 @@ interface Service {
     MatFormFieldModule,
     MatInputModule,
     FaqComponent,
-    HttpClientModule
+    HttpClientModule,
   ],
   templateUrl: './servicess.component.html',
   styleUrls: ['./servicess.component.css'],
@@ -45,13 +45,13 @@ export class ServicesComponent implements OnInit {
     {
       title: 'Mantenimiento Preventivo',
       icon: 'build',
-      description: 'Servicio de mantenimiento regular para evitar fallas.'
+      description: 'Servicio de mantenimiento regular para evitar fallas.',
     },
     {
       title: 'Diagnóstico Electrónico',
       icon: 'settings_input_component',
-      description: 'Uso de tecnología avanzada para identificar problemas.'
-    }
+      description: 'Uso de tecnología avanzada para identificar problemas.',
+    },
   ];
 
   constructor(private http: HttpClient) {}
@@ -64,7 +64,8 @@ export class ServicesComponent implements OnInit {
     this.isLoading = true;
     this.errorMessage = '';
 
-    this.http.get<Service[]>('https://miniproyecto.free.beeceptor.com')
+    this.http
+      .get<Service[]>('https://miniproyecto.free.beeceptor.com')
       .subscribe({
         next: (data) => {
           this.allServices = data;
@@ -75,9 +76,10 @@ export class ServicesComponent implements OnInit {
           console.error('Error al obtener servicios:', err);
           this.allServices = this.defaultServices;
           this.filteredServices = [...this.allServices];
-          this.errorMessage = 'Usando datos de ejemplo (fallo al conectar con la API)';
+          this.errorMessage =
+            'Usando datos de ejemplo (fallo al conectar con la API)';
           this.isLoading = false;
-        }
+        },
       });
   }
 
@@ -88,9 +90,10 @@ export class ServicesComponent implements OnInit {
     }
 
     const term = this.searchTerm.toLowerCase().trim();
-    this.filteredServices = this.allServices.filter(service => {
+    this.filteredServices = this.allServices.filter((service) => {
       const titleMatch = service.title?.toLowerCase().includes(term) || false;
-      const descMatch = service.description?.toLowerCase().includes(term) || false;
+      const descMatch =
+        service.description?.toLowerCase().includes(term) || false;
       return titleMatch || descMatch;
     });
   }

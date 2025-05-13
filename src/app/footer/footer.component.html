@@ -8,7 +8,12 @@
         <mat-card class="team-card">
           <mat-card-header>
             <div mat-card-avatar class="member-photo">
-              <img [src]="member.photoUrl" alt="{{ member.name }}" class="member-image" onerror="this.src='assets/images/default-profile.png'">
+              <img
+                [src]="member.photoUrl"
+                alt="{{ member.name }}"
+                class="member-image"
+                onerror="this.src='assets/images/default-profile.png'"
+              />
             </div>
             <mat-card-title>{{ member.name }}</mat-card-title>
             <mat-card-subtitle>{{ member.role }}</mat-card-subtitle>
@@ -18,7 +23,6 @@
         }
       </div>
     </div>
-    
 
     <!-- Resto del footer permanece igual -->
     <div class="university-section">
@@ -37,9 +41,6 @@
 
   <mat-divider></mat-divider>
   <div class="footer-bottom">
-    <p>
-      &copy; {{ currentYear }} ApexAutomotive - Proyecto Universitario. Todos
-      los derechos reservados.
-    </p>
+    <p>&copy; {{ currentYear }} ApexAutomotive - Proyecto Universitario.</p>
   </div>
 </mat-toolbar>

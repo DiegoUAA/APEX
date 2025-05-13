@@ -18,10 +18,10 @@ export class LoginComponent {
   error: boolean = false;
 
   admins = [
-    { username: 'admin1', password: '1234', fullName: 'Administrador Uno' },
-    { username: 'admin2', password: 'abcd', fullName: 'Administrador Dos' },
+    { username: 'AngelGarza', password: '1234', fullName: 'Administrador Uno' },
+    { username: 'OsbaldoEscalera', password: 'abcd', fullName: 'Administrador Dos' },
     {
-      username: 'admin3',
+      username: 'DiegoReyes',
       password: 'adminpass',
       fullName: 'Administrador Tres',
     },

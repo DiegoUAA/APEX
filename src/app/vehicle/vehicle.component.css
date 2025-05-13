@@ -249,3 +249,13 @@
       }
     }
   }
+
+mat-card-actions {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+mat-card-actions button:last-child {
+  margin-left: auto;
+}
+

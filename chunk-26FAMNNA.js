@@ -1,0 +1,1 @@
+import{X as r}from"./chunk-RNRL7HBI.js";var o=class e{loggedUser=null;login(t){this.loggedUser=t}logout(){this.loggedUser=null}get user(){return this.loggedUser}isLoggedIn(){return this.loggedUser!==null}static \u0275fac=function(n){return new(n||e)};static \u0275prov=r({token:e,factory:e.\u0275fac,providedIn:"root"})};export{o as a};
